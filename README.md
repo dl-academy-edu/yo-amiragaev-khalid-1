@@ -1,3 +1,4 @@
-# yo-amiragaev-khalid-1
-Учебный репозиторий студента группы F117 Амирагаева Халида. 1-ый модуль.   
-Наставник: [Филиппов Александр](https://t.me/aleksandrfilippov).
+# Личный проект "DLK SHOP"
+
+Студент [Амирагаев Халид](https://t.me/Khalid_stom)   
+Наставник [Филиппов Александр](https://t.me/aleksandrfilippov)
