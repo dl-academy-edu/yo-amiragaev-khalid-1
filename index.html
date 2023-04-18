@@ -4,121 +4,217 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DLK</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header class="header_title">
         <a href="/">
-            <img src="#" alt="Logotype of DLK">
+            <img src="./images/logotype.png" alt="Logotype of DLK">
         </a>
-        <nav>
-            <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Catalog</a></li>
-                <li><a href="#">About us</a></li>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Blog</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Catalog</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">About us</a></li>
             </ul>
         </nav>
-        <ul>
-            <li>
+        <ul class="header__button">
+            <li class="header__button-item">
                 <form action="#">
-                    <button>search</button>
+                    <button type="submit">
+                        <img src="/images/search.png" alt="magnifying glass">
+                    </button>
                 </form>
             </li>
-            <li><a href="#">Contact Us</a></li>
-    </ul>
+            <li class="header__button-item"><a href="#">Contact Us</a></li>
+        </ul>
     </header>
-    <main>
-        <section>
-            <h1>The ooh noo collection
-            </h1>
-            <p>Designed in Slovenia</p>
-            <button>Explore Now</button>
+    <main class="main">
+        <section class="holder__collection">
+            <h1 class="holder__collection">The ooh noo collection</h1>
+            <img src="./images/monster.png" alt="monster">
+            <ul class="holder__collection-list">
+                <li class="holder__collection-item">
+                    <button type="submit">
+                        <img src="./images/Rectangle (1).png" alt="Rectangle">
+                    </button>
+                </li>
+                <li class="holder__collection-item">
+                    <button type="submit">
+                        <img src="./images/Rectangle (1).png" alt="Rectangle>
+                    </button>
+                </li>
+                <li class="holder__collection-item">
+                    <button type="submit">
+                        <img src="./images/Rectangle (1).png" alt="Rectangle">
+                    </button>
+                </li>
+                <li class="holder__collection-item">
+                    <button type="submit">
+                        <img src="./images/Rectangle (1).png" alt="Rectangle">
+                    </button>
+                </li>
+            </ul>
+            <p class="holder__collection">Designed in Slovenia</p>
+            <button>
+                <img src="./images/explore now.png" alt="explore now">
+            </button>
             <p>Free (Continental) USA shipping on all orders of $100 USD or more!</p>
         </section>
-        <section>
+        <section class="holder__products">
             <h2>Category Products</h2>
-            <ul>
-                <li><a href="#">apparel kids</a></li>
-                <li><a href="#">Holidays shop</a></li>
-                <li><a href="#">Toys</a></li>
-                <li><a href="#">Accessories</a></li>
+            <ul class="holder__products-list">
+                <li class="holder__products-item"><a href="/">
+                    <p class="holder__products-text">Apparel Kids</p>
+                    <img src="./images/apparel.png" alt="apparel kids"></a>
+                </li>
+                <li class="holder__products-item"><a href="#">
+                    <p class="holder__products-text">Hoolidays Shop</p>
+                    <img src="./images/holiday.png" alt="Holidays shop"></a>
+                </li>
+                <li class="holder__products-item"><a href="#">
+                    <p class="holder__products-text">Toys</p>
+                    <img src="./images/toys.png" alt="Toys"></a>
+                </li>
+                <li class="holder__products-item"><a href="#">
+                    <p class="holder__products-text">Accessories</p>
+                    <img src="./images/accessories.png" alt="Accessories"></a>
+                </li>
             </ul>
-            <form action="#">
-                <button>dack</button>
-                <button>forward</button>
+            <form action="#" class="holder__control">
+                <button type="submit">
+                    <img src="./images/back.png" alt="back">
+                </button>
+                <button type="submit">
+                    <img src="./images/forward.png" alt="forward">
+                </button>
             </form> 
-            <p>text</p>
+            <p class="holder__products-content">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
         </section>
-        <section>
-            <img src="#" alt="#">
-            <h2>Delivery</h2>
-            <ul>
-                <li>Delivery</li>
-            <li>Guarantee</li>
-            <li>Credit</li>
+        <section class="container__delivery">
+            <img src="./images/woman.jpg" alt="woman">
+            <h2 class="container__delivery-caption">Delivery</h2>
+            <ul class="container__delivery-list">
+                <li class="container__delivery-item">Delivery</li>
+                <li class="container__delivery-item">Guarantee</li>
+                <li class="container__delivery-item">Credit</li>
             </ul>
-            <p>text</p>
-            <p>text</p>
-            <a href="#">Learn More</a>
+            <p class="container__delivery-content">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+            <p class="container__delivery-content">What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+            <a href="#">
+                <img src="./images/learn more.png" alt="learn more">
+            </a>
         </section>
-        <div>
-            <ul>
-                <li><img src="#" alt="1"></li>
-                <li><img src="#" alt="2"></li>
-                <li><img src="#" alt="3"></li>
-                <li><img src="#" alt="4"></li>
+        <div class="holder__promo">
+            <ul class="holder__promo-list">
+                <li class="holder__promo-item"><img src="./images/mail.png" alt="mail"></li>
+                <li class="holder__promo-item"><img src="./images/apple.png" alt="apple"></li>
+                <li class="holder__promo-item"><img src="./images/eltex.png" alt="eltex"></li>
+                <li class="holder__promo-item"><img src="./images/owox.png" alt="owox"></li>
             </ul>
         </div>
-        <section>
-            <h2>Design life kids</h2>
-            <p>About Us</p>
-            <p>text</p>
-            <a href="#">Buy Now</a>
-        </section>
-        <article>
-            <h2>Contacts</h2>
-            <p>text</p>
+        <article class="holder__wrapper">
+            <h2 class="holder__wrapper-caption">Design life kids</h2>
+            <p class="holder__wrapper-content">About Us</p>
+            <p class="holder__wrapper-content">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical. (1)</p>
+            <a href="#">
+                <img src="./images/buy now.png" alt="buy now">
+            </a>
+        </article>
+        <article class="holder__contacts">
+            <h2 class="holder__contacts-caption">Contacts</h2>
+            <p class="holder__contacts-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical. (1)</p>
+            <iframe class="contacts__map" src="https://yandex.ru/map-widget" width="#" height="#" frameborder="0"></iframe>
+            </a>
         </article>
     </main>
-    <footer>
-            <p>Navigation</p>
-            <nav>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Design Services</a></li>
-                    <li><a href="#">Featured On</a></li>
-                    <li><a href="#">2018 Holiday Catalog</a></li>
-                    <li><a href="#">Shop By Designer</a></li>
+    <footer class="footer__column">
+            <p class="footer__column-content">Navigation</p>
+            <nav class="footer__column-navigation">
+                <ul class="footer__column-list">
+                    <li class="footer__column-item"><a href="#">About Us</a></li>
+                    <li class="footer__column-item"><a href="#">Blog</a></li>
+                    <li class="footer__column-item"><a href="#">Design Services</a></li>
+                    <li class="footer__column-item"><a href="#">Featured On</a></li>
+                    <li class="footer__column-item"><a href="#">2018 Holiday Catalog</a></li>
+                    <li class="footer__column-item"><a href="#">Shop By Designer</a></li>
                 </ul>
             </nav>
-            <p>Customer Information</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Sale Exclusions</a></li>
-                    <li><a href="#">Shipping & Returns</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Search</a></li>
+            <p class="footer__column-content">Customer Information</p>
+            <nav class="footer__column-information">
+                <ul class="footer__column-information-list">
+                    <li class="footer__column-information-item"><a href="#">Contact Us</a></li>
+                    <li class="footer__column-information-item"><a href="#">Sale Exclusions</a></li>
+                    <li class="footer__column-information-item"><a href="#">Shipping & Returns</a></li>
+                    <li class="footer__column-information-item"><a href="#">Terms & Conditions</a></li>
+                    <li class="footer__column-information-item"><a href="#">Privacy Policy</a></li>
+                    <li class="footer__column-information-item"><a href="#">Search</a></li>
                 </ul>
             </nav>
-            <p>Connect</p>
+            <p class="footer__column-content">Connect</p>
             <input type="Email">
-            <button>Join</button>
-            <ul>
-                <li><a href="#">*</a></li>
-                <li><a href="#">*</a></li>
-                <li><a href="#">*</a></li>
-                <li><a href="#">*</a></li>
+            <button><img src="./images/join.png" alt="join"></button>
+            <ul class="footer__column-list">
+                <li class="footer__column-item">
+                    <a href="#" class="footer__column-item-link">
+                        <img src="#" alt="facebook">
+                    </a>
+                </li>
+                <li class="footer__column-item">
+                    <a href="#" class="footer__column-item-link">
+                        <img src="#" alt="twitter">
+                    </a>
+                </li>
+                <li class="footer__column-item">
+                    <a href="#" class="footer__column-item-link">
+                        <img src="#" alt="">
+                    </a>
+                </li>
+                <li class="footer__column-item">
+                    <a href="#" class="footer__column-item-link">
+                        <img src="#" alt="instagram">
+                    </a>
+                </li>
             </ul>
-        <div>
-            <ul>
-                <li>Company Rating</li>
-                <li>Copyright © 2018 Dlk∙Design Life Kids </li>
-                <li>Web Design - Direct Line Development</li>
+        <div class="footer">
+            <ul class="footer__row-list">
+                <li class="footer__row-item">Company Rating
+                    <img src="./images/Star.png" alt="Star">
+                </li>
+                <li class="footer__row-item">Copyright © 2018 Dlk∙Design Life Kids </li>
+                <li class="footer__row-item">Web Design - Direct Line Development</li>
             </ul>
         </div>
     </footer>
+    <div class="container__form">
+        <form action="#" method="get" class="container__form">
+            <ul class="container__form-list">
+                <li class="container__form-item">
+                    <label class="container__form-label" for="name">Name:</label>
+                    <input type="text" name="name" class="container__form-input" id="Name" required>
+                </li>
+                <li class="container__form-item">
+                    <label class="container__items-label" for="phone">Phone:</label>
+                    <input type="text" name="phone" class="container__items-input" id="Phone" required>
+                </li>
+                <li class="container__form-item">
+                    <label class="container__items-label" for="mail">Email:</label>
+                    <input type="text" name="email" class="container__items-input" id="Email" required>
+                </li>
+                <li class="container__form-item">
+                    <label class="container__items-label" for="message">Message:</label>
+                    <input type="text" name="message" class="container__items-input" id="message" required>
+                </li>
+            </ul>
+            <ul class="container__list">
+                <li class="container__list-item">
+                    <input type="checkbox" id="Byclicking" class="container__item-input">
+                    <label class="container__items-label">By clicking on the button, you consent to the processing of your personal data</label>
+                    <input type="submit" class="submit" value="SUBMIT">
+                </li>
+            </ul>
+        </form>
+    </div>
 </body>
 </html>
