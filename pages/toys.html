@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DLK</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    
+    <link rel="stylesheet" href="./styles/common.css">
 </head>
 <body>
-    <header class="header__container">
+    <header class="header">
         <a href="/">
             <img src="../images/logotype.png" alt="Logotype of DLK">
         </a>
@@ -142,63 +144,83 @@
             <button class="box__control-btn" type="submit">right</button>
         </div>
     </main>
-    <footer class="footer__column">
-        <p class="footer__column-content">Navigation</p>
-        <nav class="footer__column-navigation">
-            <ul class="footer__column-list">
-                <li class="footer__column-item"><a href="#">About Us</a></li>
-                <li class="footer__column-item"><a href="#">Blog</a></li>
-                <li class="footer__column-item"><a href="#">Design Services</a></li>
-                <li class="footer__column-item"><a href="#">Featured On</a></li>
-                <li class="footer__column-item"><a href="#">2018 Holiday Catalog</a></li>
-                <li class="footer__column-item"><a href="#">Shop By Designer</a></li>
+    <footer class="footer">
+        <p class="footer__content">Navigation</p>
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link" href="#">About Us</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Design Services</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Featured On</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">2018 Holiday Catalog</a></li>
+                <li class="footer__item"><a class="footer__link" href="#">Shop By Designer</a></li>
             </ul>
         </nav>
-        <p class="footer__column-content">Customer Information</p>
-        <nav class="footer__column-information">
-            <ul class="footer__column-information-list">
-                <li class="footer__column-information-item"><a href="#">Contact Us</a></li>
-                <li class="footer__column-information-item"><a href="#">Sale Exclusions</a></li>
-                <li class="footer__column-information-item"><a href="#">Shipping & Returns</a></li>
-                <li class="footer__column-information-item"><a href="#">Terms & Conditions</a></li>
-                <li class="footer__column-information-item"><a href="#">Privacy Policy</a></li>
-                <li class="footer__column-information-item"><a href="#">Search</a></li>
+        <p class="footer__content">Customer Information</p>
+        <nav class="footer__information">
+            <ul class="footer__information-list">
+                <li class="footer__information-item"><a class="footer__link" href="#">Contact Us</a></li>
+                <li class="footer__information-item"><a class="footer__link" href="#">Sale Exclusions</a></li>
+                <li class="footer__information-item"><a class="footer__link" href="#">Shipping & Returns</a></li>
+                <li class="footer__information-item"><a class="footer__link" href="#">Terms & Conditions</a></li>
+                <li class="footer__information-item"><a class="footer__link" href="#">Privacy Policy</a></li>
+                <li class="footer__information-item"><a class="footer__link" href="#">Search</a></li>
             </ul>
         </nav>
-        <p class="footer__column-content">Connect</p>
+        <p class="footer__content">Connect</p>
         <input type="Email">
-        <button><img src="../images/join.png" alt="join"></button>
+        <button class="but" type="submit">Join</button>
         <ul class="footer__column-list">
             <li class="footer__column-item">
                 <a href="#" class="footer__column-item-link">
-                    <img src="#" alt="facebook">
+                    <img src="./images/f.png" alt="facebook">
                 </a>
             </li>
             <li class="footer__column-item">
                 <a href="#" class="footer__column-item-link">
-                    <img src="#" alt="twitter">
+                    <img src="./images/twitter.png" alt="twitter">
                 </a>
             </li>
             <li class="footer__column-item">
                 <a href="#" class="footer__column-item-link">
-                    <img src="#" alt="">
+                    <img src="./images/mail.png" alt="mail">
                 </a>
             </li>
             <li class="footer__column-item">
                 <a href="#" class="footer__column-item-link">
-                    <img src="#" alt="instagram">
+                    <img src="./images/Instagram.png" alt="instagram">
                 </a>
             </li>
         </ul>
     <div class="footer">
         <ul class="footer__row-list">
-            <li class="footer__row-item">Company Rating
-                <img src="../images/Star.png" alt="Star">
-            </li>
+            <li class="footer__row-item">Company Rating</li>
+            <ul class="star__undotted">
+                <li>
+                    <input type="radio" id="5_star" name="star" class="radio_star_input" value="5">
+                    <label for="5_star" class="radio_star_label"></label>
+                </li>
+                <li>
+                    <input type="radio" id="4_star" name="star" class="radio_star_input" value="4">
+                    <label for="4_star" class="radio_star_label"></label>
+                </li>
+                <li>
+                    <input type="radio" id="3_star" name="star" class="radio_star_input" value="3">
+                    <label for="3_star" class="radio_star_label"></label>
+                </li>
+                <li>
+                    <input type="radio" id="2_star" name="star" class="radio_star_input" value="2">
+                    <label for="2_star" class="radio_star_label"></label>
+                </li>
+                <li>
+                    <input type="radio" id="1_star" name="star" class="radio_star_input" value="1">
+                    <label for="1_star" class="radio_star_label"></label>
+                </li>
+            </ul>
             <li class="footer__row-item">Copyright © 2018 Dlk∙Design Life Kids </li>
             <li class="footer__row-item">Web Design - Direct Line Development</li>
         </ul>
     </div>
-    </footer>
+</footer>
 </body>
 </html>
