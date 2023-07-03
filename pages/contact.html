@@ -5,29 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DLK</title>
-    <link rel="stylesheet" href="./styles/normalize.css">
-    
-    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/contact.css">   
+    <link rel="stylesheet" href="../styles/common.css">
 </head>
 <body>
-    <header class="header">
-        <a href="/">
-            <img src="../images/logotype.png" alt="Logotype of DLK">
+    <header class="header container">
+        <a class="header__link" href="/">
+            <img src="../images/logotype.png" alt="Logotype of DLK" width="100" height="52>
         </a>
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item"><a class="header__nav-link" href="#">Blog</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="#">Catalog</a></li>
-                <li class="header__nav-item"><a class="header__nav-link" href="#">About us</a></li>
-            </ul>
-        </nav>
+        <div class="header__nav">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a class="header__nav-link" href="../pages/blog.html">Blog</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="../pages/catalog.html">Catalog</a></li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">About us</a></li>
+                </ul>
+            </nav>
+        </div>
         <ul class="header__button">
             <li class="header__button-item">
-                <form action="#">
-                    <button type="submit">
-                        <img src="/images/search.png" alt="magnifying glass">
-                    </button>
-                </form>
+                <button class="header__button-item-btn" type="submit">
+                    <img src="../images/search.png" alt="magnifying glass">
+                </button>
             </li>
             <li class="header__button-item"><a href="#">Contact Us</a></li>
         </ul>
