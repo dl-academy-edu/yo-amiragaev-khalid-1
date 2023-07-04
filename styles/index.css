@@ -1,0 +1,14 @@
+.collection {
+    display: flex;
+}
+.collection__content {
+    align-items: flex-end;
+}
+/*
+.collection__img {
+    position:absolute;
+}
+*/
+.products__list {
+    display: flex;
+}

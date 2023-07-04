@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 49px auto;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header__nav {
+    justify-content: space-between;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+.container {
+    display: flex;
+    max-width: 1180px;
+    justify-content: space-around;
+    margin: auto;
+}
